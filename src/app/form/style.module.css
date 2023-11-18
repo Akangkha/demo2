@@ -1,0 +1,43 @@
+.feedbackform > div > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 350px;
+}
+
+.feedbackform {
+  width: 400px;
+  display: flex;
+  background-color: rgb(40, 39, 39);
+  border-radius: 20px;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.feedbackform > div > form > input {
+  padding: 8px;
+  border-radius: 6px;
+  color: white;
+}
+
+.feedbackform > div > form > button {
+  background-color: rgb(151, 151, 243);
+  color: black;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.header {
+  color: rgb(151, 151, 243);
+}
+.form > input::placeholder {
+  color: white;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
